@@ -1,0 +1,4 @@
+<svg {{ with .Class }}class="{{ . }}" {{ end }}{{ with .Width }}width="{{ . }}" {{ end }}{{ with .Height }}height="{{ . }}" {{ end }}xmlns="http://www.w3.org/2000/svg" fill="{{ .Fill | default "currentColor" }}" viewBox="0 0 24 24"{{ with .Style }}style="{{ . }} "{{ end }}>
+    <path d="M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16Z"></path>
+  <path fill-rule="evenodd" d="M21.707 21.707a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 0 1 1.414-1.414l3.5 3.5a1 1 0 0 1 0 1.414Z" clip-rule="evenodd"></path>
+</svg>

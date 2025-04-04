@@ -1,0 +1,6 @@
+/.idea
+/flowbite-icons
+!/layouts/partials/flowbite-icons
+/node_modules
+.DS_Store
+.keep
