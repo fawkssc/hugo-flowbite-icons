@@ -5,4 +5,4 @@
 {{- $params = $params | merge (dict "Style" (cond .IsNamedParams (.Get "style") (.Get 3))) -}}
 {{- $params = $params | merge (dict "Width" (cond .IsNamedParams (.Get "width") (.Get 4))) -}}
 {{- $params = $params | merge (dict "Height" (cond .IsNamedParams (.Get "height") (.Get 5))) -}}
-{{ partial "flowbite-icon.html" $params }}
+{{ partial "flowbite-icons.html" $params }}
